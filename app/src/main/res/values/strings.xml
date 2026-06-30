@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的菜谱</string>
+    <string name="main_title">菜谱列表</string>
+    <string name="detail_title">菜谱详情</string>
+    <string name="add_recipe_title">添加菜谱</string>
+    <string name="edit_recipe_title">编辑菜谱</string>
+    <string name="add_recipe">添加菜谱</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="confirm_delete">确认删除</string>
+    <string name="confirm_delete_msg">确定要删除这个菜谱吗？</string>
+    <string name="yes">确定</string>
+    <string name="no">取消</string>
+
+    <!-- 详情页面 -->
+    <string name="main_dish">主菜</string>
+    <string name="weight">重量</string>
+    <string name="default_weight">默认重量</string>
+    <string name="side_dishes">配菜</string>
+    <string name="seasonings">调料</string>
+    <string name="steps">步骤</string>
+    <string name="timer">计时器</string>
+    <string name="start_timer">开始计时</string>
+    <string name="pause_timer">暂停</string>
+    <string name="reset_timer">重置</string>
+    <string name="no_recipes">暂无菜谱，点击右下角按钮添加</string>
+    <string name="minute_short">分</string>
+    <string name="second_short">秒</string>
+
+    <!-- 添加菜谱 -->
+    <string name="recipe_name">菜谱名称</string>
+    <string name="recipe_name_hint">请输入菜谱名称</string>
+    <string name="main_dish_name">主菜名称</string>
+    <string name="main_dish_name_hint">请输入主菜名称</string>
+    <string name="main_dish_weight">默认重量（克）</string>
+    <string name="main_dish_weight_hint">请输入默认重量</string>
+    <string name="add_side_dish">添加配菜</string>
+    <string name="side_dish_name">配菜名称</string>
+    <string name="side_dish_amount">配菜用量</string>
+    <string name="add_seasoning">添加调料</string>
+    <string name="seasoning_name">调料名称</string>
+    <string name="seasoning_amount">调料用量</string>
+    <string name="add_step">添加步骤</string>
+    <string name="step_description">步骤描述</string>
+    <string name="step_description_hint">请输入步骤描述</string>
+    <string name="step_duration">计时时长（秒，0表示无需计时）</string>
+    <string name="step_duration_hint">请输入计时秒数</string>
+    <string name="remove">移除</string>
+    <string name="gram_unit">克</string>
+
+    <!-- 错误提示 -->
+    <string name="error_recipe_name_empty">请输入菜谱名称</string>
+    <string name="error_main_dish_empty">请输入主菜名称</string>
+    <string name="error_save_failed">保存失败</string>
+    <string name="save_success">保存成功</string>
+    <string name="actual_weight_hint">本次实际重量</string>
+    <string name="weight_ratio">比例: ×%.1f</string>
+    <string name="adjusted_amount">调整为: %s</string>
+    <!-- 图像导入（离线 OCR） -->
+    <string name="import_image">导入图像</string>
+    <string name="paste_clipboard">从剪切板粘贴</string>
+    <string name="clipboard_empty">剪切板无内容</string>
+    <string name="clipboard_filled">已从剪切板填充菜谱信息</string>
+    <string name="take_photo">拍照</string>
+    <string name="pick_from_gallery">从相册选择</string>
+    <string name="analyzing">正在识别菜谱文字…</string>
+    <string name="analyze_success">菜谱信息已自动填充</string>
+    <string name="analyze_failed">识别失败，请确保图片清晰</string>
+</resources>

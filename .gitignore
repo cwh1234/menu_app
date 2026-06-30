@@ -1,0 +1,28 @@
+# Android
+*.apk
+*.aab
+*.dex
+*.class
+bin/
+gen/
+build/
+out/
+.gradle/
+
+# IDE
+.idea/
+*.iml
+local.properties
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+/e/android_sdk/
+/e/gradle-8.5/
+/e/jdk-21.0.2/
+/cmdline-tools.zip
+/gradle-bin.zip
+/jdk21.zip

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/step_item_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tv_step_order"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:background="@drawable/step_number_bg"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_step_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:textColor="@color/text_primary"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <!-- 计时区域 -->
+    <LinearLayout
+        android:id="@+id/layout_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="44dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_timer_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/timer"
+            android:textColor="@color/timer_active"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_timer_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:fontFamily="monospace"
+            android:textColor="@color/timer_active"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_timer_start"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:backgroundTint="@color/timer_inactive"
+            android:text="@string/start_timer"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingHorizontal="12dp" />
+
+        <Button
+            android:id="@+id/btn_timer_reset"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginStart="4dp"
+            android:backgroundTint="@color/gray_medium"
+            android:text="@string/reset_timer"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:paddingHorizontal="12dp" />
+
+        <ProgressBar
+            android:id="@+id/progress_timer"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:max="100"
+            android:visibility="gone" />
+    </LinearLayout>
+</LinearLayout>
